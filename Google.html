@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<style>
+body {
+	font-family: arial,sans-serif;
+	font-size: small;
+}
+.sign_in {
+    background-color: #4387FD;
+    border: 1px solid #4285F4;
+    font-weight: bold;
+    outline: medium none;
+	display: inline-block;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+#nav_header {
+	float: right;
+	padding: 8px;
+}
+a {
+	color: #404040;
+    text-decoration: none;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+#sign_in {
+	color: #FFFFFF;
+}
+#logo {
+	background: url(logo.png) no-repeat;
+	background-size:269px 95px;
+	height:95px;
+	width:269px;
+	margin: 0 auto;
+}
+#location {
+	color:#777;
+	font-size:16px;
+	font-weight:bold;
+	position:relative;
+	left:218px;
+	top:70px;
+}
+#container {
+	padding-top:162px;
+}
+#search_text {
+	background-color: #FFFFFF;
+    border-color: rgba(0, 0, 0, 0.15);
+    border-image: none;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    height: 30px;
+	width: 600px;
+}
+#search_container {
+	width: 600px;
+	margin: 0 auto;
+	padding: 14px;
+}
+.search_button {
+	margin: 16px 8px;
+	background-color: #F5F5F5;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    color: #444444 !important;
+    font-size: 11px;
+	width: 120px;
+}
+.search_span {
+	font: bold 11px/27px Arial,sans-serif !important;
+    vertical-align: top;
+}
+.search_button_container {
+	width: 600px;
+	margin: 0 auto;
+	padding: 14px;
+}
+.search_button_content {
+	margin: 0 auto;
+	width: 50%;
+}
+footer {
+	bottom: 0;
+	left: 0;
+    font-size: 10pt;
+    height: 40px;
+    position: absolute;
+	line-height: 40px;
+	background-color: #F5F5F5;
+	width:100%;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.nav_footer {
+	display: inline;
+}
+#nav_footer_right {
+	float: right;
+}
+</style>
+<html lang="en-IN">
+	<head>
+		<title>Google - India</title>
+	</head>
+	<body>
+		<header>
+		<nav id="nav_header">
+			<a href="#">+You</a>
+			<a href="#">Gmail</a>
+			<a href="#">Images</a>
+			<div class="sign_in">
+				<a href="#" id="sign_in">Sign in</a>
+			</div>
+		</nav>
+		</header>
+		<div id="container">
+			<div id="logo">
+			<div id="location">India</div>
+			</div>
+			<div id="search_container">
+				<input id="search_text">
+			</div>
+			<div class="search_button_container">
+				<div class="search_button_content">
+					<button class="search_button">
+						<span class="search_span">Google Search</span>
+					</button>
+					<button class="search_button">
+						<span class="search_span">I'm Feeling Lucky</span>
+					</button>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<nav class="nav_footer" id="nav_footer_left">   
+				<a href="#">Advertising</a>
+				<a href="#">Business</a>
+				<a href="#">About</a>
+			</nav>
+			<nav class="nav_footer" id="nav_footer_right">
+				<a href="#">Privacy</a>
+				<a href="#">Terms</a>
+				<a href="#">Settings</a>
+				<a href="#">Use Google.com</a>
+			</nav>
+		</footer>
+	</body>
+</html>
